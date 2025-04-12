@@ -1,0 +1,18 @@
+[package]
+name = "microsoft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+serde_json = "1.0.140"
+serde = { version = "1.0.218", features = ["derive"] }
+reqwest = { version = "0.12.12", features = ["blocking", "json"] }
+openssl = "0.10.71"
+jsonwebtoken = "9.3.1"
+futures-util = "0.3.31"
+lazy_static = "1.5.0"
+actix-web = "4.9.0"
+log = "0.4"
+moka = { version = "0.12.10", features = ["sync", "future"] }
+thiserror = "2.0.12"
